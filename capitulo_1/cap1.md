@@ -1,22 +1,25 @@
-# Introdução a programação em python
+# Introdução a programação em python 3
 
 #### O que é python ?
 *Python* é uma linguagem de programação interpretada, orientada a objetos, que é extremamente versátil, existem várias utilizações da mesma em praticamente todo tipo de software, tanto no [Brasil](http://python.org.br/empresas) quanto no [exterior](https://oraculoti.com.br/2017/03/24/quais-sao-as-aplicacoes-mais-famosas-feitas-em-python/).
 
 #### IDEs
 
-Sou um usuário de distribuições GNU/Linux, sendo assim vou falar provavelmente de software voltado ao mesmo.
+Sou um usuário de distribuições GNU/Linux, sendo assim vou falar provavelmente de software voltado ao mesmo, abaixo seque duas ides, o bpython é dinâmico voltado para criar pequenos programas rapinhadamente, já o pycharm é para um desenvolvimento mais complexo, sublime, atom e vim são outras opções bastantes interessantes.
 
 * [Bpython3](https://bpython-interpreter.org/)
 * [Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+* [Sublime](https://www.sublimetext.com/)
+* [Atom](https://atom.io/)
+* [Vim](http://www.vim.org/)
 
-Eu sei que existem várias, porem está são as que já utilizei, como estou escrevendo sobre minha experiência então, vou falar de apenas o que já usei ou uso.
+Sei que existem várias, porem esses são as que já utilizei ou utilizo, como estou escrevendo sobre minha experiência então, vou falar de apenas o que já usei ou uso.
 
 #### Primeiras impressões
 
-Em um primeiro contato com o *python*, vendo alguns vídeos e lendo o primeiro capítulo do livro, já me surpreendi muito com a clareza da sintaxe da linguagem, estou aprendendo o python 3.
+Em um primeiro contato com o *python*, vendo apenas alguns vídeos e lendo o primeiro capítulo do livro, já me surpreendi muito com a clareza da sintaxe da linguagem.
 
-
+---
 ### Capítulo - 1
 
 #### Preparando ambiente
@@ -27,13 +30,13 @@ Em um primeiro contato com o *python*, vendo alguns vídeos e lendo o primeiro c
 
 #### Declarações bacias
 
-Bom, vou seguir uma lógica para explicar, algumas coisas primordiais quando se está aprendendo a programa em uma nova linguagem.
+Bom, vou seguir uma lógica para explicar, algumas coisas primordiais quando se está aprendendo a programar em uma nova linguagem.
 
 Uma listinha de itens que eu acho primordiais para inicia sua jornada em uma nova linguagem.
 
 1. Input e output
 2. Declarações de variáveis
-3. operações matematicas
+3. operações matemáticas
 
 > Todos os exemplos serão realizando no meu caso no *bpython3* fique a vontade de usar o que lhe for mais confortável, o importante é ser produtivo.
 

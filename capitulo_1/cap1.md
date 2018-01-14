@@ -14,7 +14,49 @@ Eu sei que existem várias, porem está são as que já utilizei, como estou esc
 
 #### Primeiras impressões
 
-Em um primeiro contato com o *python*, já me surpreendi muito a facilidade do mesmo, a sintaxe é clara as declarações, tanto que em muito as casos não é necessário sequer comentar, basta ler como um texto em Inglês.
+Em um primeiro contato com o *python*, vendo alguns vídeos e lendo o primeiro capítulo do livro, já me surpreendi muito com a clareza da sintaxe da linguagem, estou aprendendo o python 3.
+
+
+### Capítulo - 1
+
+#### Preparando ambiente
+
+* [Linux](http://python.org.br/instalacao-linux)
+* [Windows](http://python.org.br/instalacao-windows)
+
+
+#### Declarações bacias
+
+Bom, vou seguir uma lógica para explicar, algumas coisas primordiais quando se está aprendendo a programa em uma nova linguagem.
+
+Uma listinha de itens que eu acho primordiais para inicia sua jornada em uma nova linguagem.
+
+1. Input e output
+2. Declarações de variáveis
+3. operações matematicas
+
+> Todos os exemplos serão realizando no meu caso no *bpython3* fique a vontade de usar o que lhe for mais confortável, o importante é ser produtivo.
+
+#### 1 - Input e Output
+
+Em python 3 existe um várias funções importantes, a primeira que vamos conhecer é a função é o famoso **print()**, a função **print()** é uma função utilizada para exibir dado na tela, segue abaixo documentação oficial:
+
+> Descrição da função [print()](https://docs.python.org/3/tutorial/inputoutput.html) site oficial da função.
+
+**Sintaxe básica**
+
+Basicamente o **print()** recebe um valor/valores e os exibe na tela.
+
+```python3
+# print(<texto>)
+print('Olá, mundo')
+
+```
+
+Vamos diferenciar a saída, só para não fazer o que todo mundo faz quando vai aprender uma nova linguagem, ao invés de "Hello, world" vamos digitar o "Olá, mundo" para ficar diferênte -_- .
+
+
+
 
 
 

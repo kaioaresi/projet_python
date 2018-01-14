@@ -7,8 +7,8 @@
 
 Sou um usuário de distribuições GNU/Linux, sendo assim vou falar provavelmente de software voltado ao mesmo.
 
-* [bpython3](https://bpython-interpreter.org/)
-* [pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+* [Bpython3](https://bpython-interpreter.org/)
+* [Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
 
 Eu sei que existem várias, porem está são as que já utilizei, como estou escrevendo sobre minha experiência então, vou falar de apenas o que já usei ou uso.
 

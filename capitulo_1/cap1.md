@@ -1,7 +1,7 @@
 # Introdução a programação em python
 
 #### O que é python ?
-*Python* é uma linguagem de programação interpretada, orientada a objetos, que extremamente versátil, existem várias utilizações da mesma em praticamente todo tipo de software, tanto no [Brasil](http://python.org.br/empresas) quanto no [exterior](https://oraculoti.com.br/2017/03/24/quais-sao-as-aplicacoes-mais-famosas-feitas-em-python/).
+*Python* é uma linguagem de programação interpretada, orientada a objetos, que é extremamente versátil, existem várias utilizações da mesma em praticamente todo tipo de software, tanto no [Brasil](http://python.org.br/empresas) quanto no [exterior](https://oraculoti.com.br/2017/03/24/quais-sao-as-aplicacoes-mais-famosas-feitas-em-python/).
 
 #### IDEs
 

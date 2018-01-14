@@ -39,95 +39,38 @@ Uma listinha de itens que eu acho primordiais para inicia sua jornada em uma nov
 
 #### 1 - Input e Output
 
-Em python 3 existe um várias funções importantes, a primeira que vamos conhecer é a função é o famoso **print()**, a função **print()** é uma função utilizada para exibir dado na tela, segue abaixo documentação oficial:
+Em python 3 existe um várias funções importantes, a primeira que vamos conhecer é a função **print()**, a função **print()** é uma função utilizada para exibir dado na tela, segue abaixo documentação oficial:
 
 > Descrição da função [print()](https://docs.python.org/3/tutorial/inputoutput.html) site oficial da função.
 
 **Sintaxe básica**
 
-Basicamente o **print()** recebe um valor/valores e os exibe na tela.
+Basicamente o **print()** recebe um texto e/ou valor/valores e os exibe na tela.
 
-```python3
+Printando uma texto simples.
+```python
 # print(<texto>)
 print('Olá, mundo')
-
 ```
 
-Vamos diferenciar a saída, só para não fazer o que todo mundo faz quando vai aprender uma nova linguagem, ao invés de "Hello, world" vamos digitar o "Olá, mundo" para ficar diferênte -_- .
+> Vamos diferenciar a saída, só para não fazer o que todo mundo faz quando vai aprender uma nova linguagem, ao invés de "Hello, world" vamos digitar o "Olá, mundo" para ficar diferênte -_- .
 
+Agora trabalhando com variavel.
+```python
+# print(<variavel>)
 
+nome = 'Kaio Cesar'
+print(nome)
+```
 
+> **Dica** em python para realizar comentário simples de uma linha usa-se o `#`, para realizar comentários de várias linhas usem o `'''` e fecha com `'''`.
 
-
-
-Tablea de procedendia de calculo no python é igual a da matematica, segue ordem de procedendia.
-> Dicas:  executar primeiro os parenteses focando sempre da esquerda para direita, use a mesma logica para os demais operadores
-
-	1 - () # Parentes
-		ex: 5 + (3 - 1) = 7
-	2 - ** # Exponecial
-		ex: 2 ** 3 = 8
-	3 - % # Resto da divisão
-		ex: 22 % 8 = 6
-	4 - // # Divisão inteira
-		ex: 22 // 8 = 2
-	5 - / # Divisão
-		ex: 22 / 8 = 2.75
-	6 - * # Multiplicação
-		ex: 3 * 5 = 15
-	7 - - # Subtração
-		ex: 5 - 2 = 3
-	8 - + # Adição
-		ex: 2 + 2 = 4
-
-# alguns erros de sintax na operações
-	5 +
-	File "<stdin>", line x
-	SyntaxError: invalid syntax
-
-# Tipos de dados em python
-
-No python existe basícamentes 4 tipos de dados
-
-String (str) = texto
-inteiro (int) = números inteiros
-Float (flaot) = números reais
-Boolean (bool) = True ou False
-
-# Dica: em python em 90% do casos não é possivel, realizar operações entre string e operadores, porém existe um caso que funciona bem
-	ex:
-		"###"* 10
-	stdout: ##############################
-
-# Dica: para contatemas em python usa-se o "," ou "+" porém isto depende muito do caso, mas existe um saida para isto o "%s" ou meu favorito o ".format()"
-
-	usando o ','
-	ex:
-		idade = 20 # tipo int
-		print('Eu tenho ', idade)
-		stdout: eu tenho 20
-
-	Usando o +
-	ex:
-		nome = 'Santos' # tipo string
-		print('Meu nome é José dos ' + nome)
-		stdout: Meu nome é José dos Santos
-
-	Usando o "%s"
-	ex:
-		nome = "Kaio Cesar"
-		print('Meu nome é %s' % nome)
-
-		stdout: Meu nome é Kaio Cesar
-
-
-	Usando o format()
-	ex:
-		nome = "Kaio Cesar"
-		idade = 25
-		estado = MG
-
-		print('Eu sou {}, tenho {} anos e moro no estado de {}'.format(nome, idade, estado))
-		stdout: Eu sou Kaio Cesar, tenho 25 anos e moro no estado de MG
-	comentario: Topzeraaa
+```python
 '''
+Um texto qualquer que será ignorado pelo interpretador python.
+Um texto qualquer que será ignorado pelo interpretador python.
+Um texto qualquer que será ignorado pelo interpretador python.
+Um texto qualquer que será ignorado pelo interpretador python.
+'''
+print('Deu certo')
+```

@@ -36,7 +36,7 @@ Uma listinha de itens que eu acho primordiais para inicia sua jornada em uma nov
 
 1. Input e output
 2. Declarações de variáveis
-3. operações matemáticas
+3. Operadores matemáticas
 
 > Todos os exemplos serão realizando no meu caso no *bpython3* fique a vontade de usar o que lhe for mais confortável, o importante é ser produtivo.
 
@@ -51,8 +51,8 @@ Em python 3 existe um várias funções importantes, a primeira que vamos conhec
 Basicamente o **print()** recebe um texto e/ou valor/valores e os exibe na tela.
 
 Printando uma texto simples.
-```python
 # print(<texto>)
+```python
 print('Olá, mundo')
 ```
 
@@ -77,3 +77,56 @@ Um texto qualquer que será ignorado pelo interpretador python.
 '''
 print('Deu certo')
 ```
+
+---
+#### Treino - 1
+
+> Tenho um pensamento que para você aprender qualquer coisa, você deve exercitar, como um músculo se você o exercitar frequentemente para ter resultado, busquei alguns exercícios para garantir se tudo que aprendi até aqui está sendo absorvido corretamento.
+
+> Dúvida é algo comum quando se está aprendendo, se você não tem dúvida é porque você não entendeu direito.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 2 - Declaração de vávariavel
+
+Para declarar uma variável em python é basta realizar uma atribuição primeiro o `nome` da variável seguido do sinal `=` mais `valor`, segue exemplo prático abaixo:
+
+```Python
+# <nome> = <valor>
+nome = 'Kaio Cesar'
+```
+
+
+> Dica: fique sempre atento ao tipo do valor, para não fazer confusão, pois em python existem basicamente três primitivos `String`, `Inteiro` e `Float`, você deve lembrar basicamente em uma String deve estar dentro de `'` ou `"`
+
+---
+#### 3. Operadores matemáticas
+
+Em python basicamente é utilizado os operadores convencionais da nossa querida matemática, porém, existem algumas pequenas alterações no modo se declarar o mesmo, segue uma tabelinha para facilitar as coias, ordenados de acordo com a ordem de prioridade de resolução.
+
+
+Operador | Operação | exemplo | output
+:---------: | :----------: | :---------: | :--------:
+`**`| Exponecial | 2 ** 3 | 8
+`%`| Módulo/resto | 22 % 8 |6
+`//`| Divisão inteira | 22 // 8 | 2
+`/`| Divisão| 22 / 8 | 2.75
+`*`| Multiplicação | 3 * 5 | 15
+`-`| Subtração | 5 - 2 | 3
+`+`| Soma | 10 + 10 | 20
+---
+
+
+> O operador '**' é o primeiro na ordem de precedência, quando se trata de operadores matemáticos e deve ser o primeiro que de ser resolvido, os demais como `%`,`//`, `/` e `*` possuem a mesma ordem de precedência, porém, a resolução deve ser realizada da esquerda para a direita, demais operadores `-` e `+` ficam por último (também devem ser resolvidos da esquerda para a direita)
